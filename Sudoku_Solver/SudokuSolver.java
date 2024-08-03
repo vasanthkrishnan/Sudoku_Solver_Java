@@ -46,7 +46,7 @@ public class SudokuSolver
                 {
                     System.out.print("| ");
                 }
-                System.out.print(board[row][column] == 0 ? " " : board[row][column]);
+                System.out.print(board[row][column] == 0 ? "-" : board[row][column]);
                 System.out.print(" ");
             }
             System.out.println("|");
